@@ -2,12 +2,12 @@ import type { SiteConfig } from "@core/web/types"
 
 export const config: SiteConfig = {
   business: {
-    name: "SugarLandMedSpa",
-    tagline: "Rejuvenate Your Look Today",
+    name: "SugarLand MedSpa",
+    tagline: "Rejuvenate Your Beauty, Elevate Wellness",
     phone: "(281) 277-7721",
     phoneHref: "tel:+12812777721",
     email: "info@sugarlandmedspa.com",
-    address: "123 Main St, Sugar Land, TX 77478",
+    address: "16500 W Airport Blvd Suite 100",
     city: "Sugar Land",
     serviceAreas: ["Sugar Land", "Houston"],
     license: "Licensed Medical Professionals",
@@ -20,22 +20,22 @@ export const config: SiteConfig = {
   },
 
   services: [
-    { icon: "sparkles", title: "Botox & Fillers", desc: "Smooth wrinkles and restore volume for a youthful appearance.", urgent: false },
-    { icon: "heart", title: "Skin Tightening", desc: "Achieve firmer, more radiant skin with advanced non-surgical treatments.", urgent: false },
-    { icon: "scissors", title: "Laser Hair Removal", desc: "Permanently reduce unwanted hair for silky-smooth skin.", urgent: false },
-    { icon: "droplets", title: "HydraFacials", desc: "Deeply cleanse, extract, and hydrate for an instant glow.", urgent: false },
-    { icon: "thermometer", title: "Hormone Therapy", desc: "Balance hormones to improve energy, mood, and overall well-being.", urgent: false },
-    { icon: "star", title: "Body Sculpting", desc: "Contour your body and build muscle with our innovative treatments.", urgent: false }
+    { icon: "sparkles", title: "Botox & Fillers", desc: "Smooth wrinkles and restore volume for a youthful, refreshed appearance.", urgent: false },
+    { icon: "heart", title: "Skin Rejuvenation", desc: "Advanced treatments like microneedling and chemical peels for radiant, healthy skin.", urgent: false },
+    { icon: "scissors", title: "Laser Hair Removal", desc: "Achieve long-lasting smooth skin with our safe and effective laser hair removal.", urgent: false },
+    { icon: "home", title: "Body Sculpting", desc: "Contour your body and build muscle with non-invasive, cutting-edge technologies.", urgent: false },
+    { icon: "shield-check", title: "Sexual Wellness", desc: "Specialized treatments to enhance intimate health and overall well-being.", urgent: false },
+    { icon: "thermometer", title: "Hormone & Wellness", desc: "Personalized programs including HRT and weight loss for optimal health.", urgent: false }
   ],
 
   testimonials: [
-    { name: "Sarah L.", location: "Sugar Land", stars: 5, text: "I had Botox with Dr. Smith last month and the results are incredible! My forehead lines are gone, and I look so much more refreshed. The staff was super friendly and made me feel completely at ease. Highly recommend SugarLandMedSpa!" },
-    { name: "Mark T.", location: "Houston", stars: 5, text: "The team at SugarLandMedSpa is fantastic. I came in for laser hair removal and after just a few sessions, I've seen a huge difference. The process was comfortable, and they explained everything clearly. Worth every penny!" },
-    { name: "Jessica R.", location: "Sugar Land", stars: 5, text: "My HydraFacial was an absolute dream! My skin has never felt so clean and looked so radiant. The esthetician was very knowledgeable and tailored the treatment to my specific needs. I've already booked my next appointment!" }
+    { name: "Sarah J.", location: "Sugar Land", stars: 5, text: "I had a fantastic experience with their Botox treatment. Dr. Evans was incredibly gentle and knowledgeable, explaining every step. My wrinkles are visibly reduced, and I feel so much more confident. The results were natural and exactly what I hoped for, all within my budget." },
+    { name: "Michael R.", location: "Houston", stars: 5, text: "The team at SugarLand MedSpa is truly exceptional. I tried the EMSCULPT NEO, and after just a few sessions, I can already see a significant difference in my core strength and definition. The staff made me feel comfortable and answered all my questions. Highly recommend for body sculpting!" },
+    { name: "Emily K.", location: "Sugar Land", stars: 5, text: "My skin has never looked better since starting microneedling here. The estheticians are professional and attentive, customizing the treatment to my specific concerns. My acne scars have faded, and my skin texture is so much smoother. It's been a truly transformative experience." }
   ],
 
   trustBadges: [
-    "Board-Certified Physicians", "Personalized Treatment Plans", "Advanced Technology", "5-Star Rated", "Award-Winning Clinic"
+    "Board-Certified Physicians", "Personalized Treatment Plans", "Advanced Technology", "Experienced & Caring Staff", "Comprehensive MedSpa Services"
   ],
 
   stats: [
@@ -45,15 +45,15 @@ export const config: SiteConfig = {
   ],
 
   reasons: [
-    { icon: "award", title: "Expert Practitioners", desc: "Our team consists of highly trained and certified medical professionals." },
-    { icon: "shield-check", title: "Safe & Effective", desc: "We prioritize your safety and deliver proven, effective treatments." },
-    { icon: "sparkles", title: "Personalized Care", desc: "Each treatment plan is tailored to your unique aesthetic goals." },
-    { icon: "thumbs-up", title: "Client Satisfaction", desc: "We are dedicated to ensuring you love your results." },
-    { icon: "home", title: "Luxurious Environment", desc: "Relax and rejuvenate in our state-of-the-art facility." },
-    { icon: "clock", title: "Flexible Scheduling", desc: "We offer convenient appointment times to fit your busy life." }
+    { icon: "award", title: "Expert Medical Team", desc: "Our treatments are performed by board-certified physicians and highly trained professionals." },
+    { icon: "sparkles", title: "Personalized Care", desc: "We create custom treatment plans tailored to your unique aesthetic goals and needs." },
+    { icon: "shield-check", title: "Safe & Effective", desc: "Utilizing only the latest, FDA-approved technologies and techniques for optimal results." },
+    { icon: "heart", title: "Comprehensive Services", desc: "From injectables to body contouring, we offer a full spectrum of medspa and wellness treatments." },
+    { icon: "thumbs-up", title: "Client Satisfaction", desc: "Dedicated to ensuring every client achieves their desired outcomes in a comfortable environment." },
+    { icon: "clock", title: "Flexible Scheduling", desc: "We offer convenient appointment times to fit your busy lifestyle." }
   ],
 
-  formServiceOptions: ["Botox & Fillers", "Skin Tightening", "Laser Hair Removal", "HydraFacials", "Hormone Therapy", "Body Sculpting"]
+  formServiceOptions: ["Botox", "Juvéderm", "Wrinkle Treatment", "Skin Tightening", "Facial Balancing", "Facelift & Neck Lift", "Laser Hair Removal", "Microneedling", "Exion Fractional RF", "Acne Scar Treatment", "Chemical Peels", "HydroDerm Facial with RF", "Facials", "Regenerative Aesthetics", "ExoMind", "Body Sculpting & Muscle Building", "Exilis Ultra 360", "Cellutone", "Vanquish", "EMTONE", "EMSCULPT NEO", "Core Club Membership", "O-Shot", "P-Shot", "Wing Lift", "Vaginal Rejuvenation", "EMSELLA®", "EMFEMME 360™", "Vagilangelo®", "Hormone Replacement Therapy", "GLP-1/NAD+ Weight Loss Program", "GLP-1/Levocarnitine Weight Loss Program", "IV Therapy", "Labiaplasty", "Vaginoplasty", "Hymenoplasty", "Perineoplasty", "Gynecology Care", "Pelvic Floor Therapy", "Female Incontinence Treatment", "Well Woman Exam", "Ultrasound Services", "Abnormal Bleeding / Fibroids / Polyps", "Endosee (Hysteroscopy)", "NovaSure Endometrial Ablation"]
 }
 
 // Backward-compat re-exports
